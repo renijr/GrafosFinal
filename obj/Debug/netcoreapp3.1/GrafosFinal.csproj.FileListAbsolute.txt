@@ -1,0 +1,13 @@
+C:\Users\renij\OneDrive\Área de Trabalho\GrafosFinal\GrafosFinal\GrafosFinal\bin\Debug\netcoreapp3.1\GrafosFinal.exe
+C:\Users\renij\OneDrive\Área de Trabalho\GrafosFinal\GrafosFinal\GrafosFinal\bin\Debug\netcoreapp3.1\GrafosFinal.deps.json
+C:\Users\renij\OneDrive\Área de Trabalho\GrafosFinal\GrafosFinal\GrafosFinal\bin\Debug\netcoreapp3.1\GrafosFinal.runtimeconfig.json
+C:\Users\renij\OneDrive\Área de Trabalho\GrafosFinal\GrafosFinal\GrafosFinal\bin\Debug\netcoreapp3.1\GrafosFinal.runtimeconfig.dev.json
+C:\Users\renij\OneDrive\Área de Trabalho\GrafosFinal\GrafosFinal\GrafosFinal\bin\Debug\netcoreapp3.1\GrafosFinal.dll
+C:\Users\renij\OneDrive\Área de Trabalho\GrafosFinal\GrafosFinal\GrafosFinal\bin\Debug\netcoreapp3.1\GrafosFinal.pdb
+C:\Users\renij\OneDrive\Área de Trabalho\GrafosFinal\GrafosFinal\GrafosFinal\obj\Debug\netcoreapp3.1\GrafosFinal.csprojAssemblyReference.cache
+C:\Users\renij\OneDrive\Área de Trabalho\GrafosFinal\GrafosFinal\GrafosFinal\obj\Debug\netcoreapp3.1\GrafosFinal.AssemblyInfoInputs.cache
+C:\Users\renij\OneDrive\Área de Trabalho\GrafosFinal\GrafosFinal\GrafosFinal\obj\Debug\netcoreapp3.1\GrafosFinal.AssemblyInfo.cs
+C:\Users\renij\OneDrive\Área de Trabalho\GrafosFinal\GrafosFinal\GrafosFinal\obj\Debug\netcoreapp3.1\GrafosFinal.csproj.CoreCompileInputs.cache
+C:\Users\renij\OneDrive\Área de Trabalho\GrafosFinal\GrafosFinal\GrafosFinal\obj\Debug\netcoreapp3.1\GrafosFinal.dll
+C:\Users\renij\OneDrive\Área de Trabalho\GrafosFinal\GrafosFinal\GrafosFinal\obj\Debug\netcoreapp3.1\GrafosFinal.pdb
+C:\Users\renij\OneDrive\Área de Trabalho\GrafosFinal\GrafosFinal\GrafosFinal\obj\Debug\netcoreapp3.1\GrafosFinal.genruntimeconfig.cache
