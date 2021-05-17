@@ -18,7 +18,7 @@ namespace GrafosFinal
         {
             Bairro = novoBairro;
         }
-
+       
         public Vertice(string codigoAntena, int quantidadeUsuarios, string bairro)
         {
             CodigoAntena = codigoAntena;
@@ -29,8 +29,5 @@ namespace GrafosFinal
             //quantidade de conexão igual a 100
             NivelSinal = 100 - quantidadeUsuarios;
         }
-
-        public void Correr() { }
-
     }
 }
