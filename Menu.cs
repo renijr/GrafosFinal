@@ -14,13 +14,9 @@ namespace GrafosFinal
             Console.WriteLine("*****************************************************");
             Console.WriteLine("   Digite 1 - Conectar (x) usuários a rede  ");
             Console.WriteLine("*****************************************************");
-            Console.WriteLine("   Digite 2 -    ");
+            Console.WriteLine("   Digite 2 -  Status da Rede  ");
             Console.WriteLine("*****************************************************");
             Console.WriteLine("   Digite 3  -Imprimir status detalhado da rede   ");
-            Console.WriteLine("*****************************************************");
-            Console.WriteLine("   Digite 4  - Excluir (1) usuário a rede   ");
-            Console.WriteLine("*****************************************************");
-            Console.WriteLine("   Digite 4  - Excluir (1) usuário a rede   ");
             Console.WriteLine("*****************************************************");
             Console.WriteLine("   Digite 9 para limpar a tela   ");
             Console.WriteLine("*****************************************************");
@@ -29,7 +25,7 @@ namespace GrafosFinal
         }
         public static void MenuActions (int op)
         {
-            Grafo.Leitor();
+            
             if (op == 1)
             {
                 Console.Clear();
@@ -46,14 +42,15 @@ namespace GrafosFinal
             else if (op == 2 )
             {
                 Console.Clear();
-                Console.WriteLine("Status Antenas - ANTES da inserção\n");
+                Console.WriteLine("Status Detalhado das Antenas \n");
                 Grafo.MostrarGrafo();
                 Console.WriteLine("*****************************************************");
-                Console.WriteLine("*            Adicionar (X) usuários a rede*");
+                Console.WriteLine("*            Status da Rede - Quantidade de usuários X capacidade");
                 Console.WriteLine("*****************************************************");
-                Grafo.EscolherBairro();
-                Console.WriteLine("\nStatus Antenas - APOS  inserção");
-                Grafo.MostrarGrafo();
+                //Grafo.EscolherBairro();
+                //Console.WriteLine("\nStatus Antenas - APOS  inserção");
+                //Grafo.MostrarGrafo();
+                Grafo.StatusRede();
             }
             else if (op == 3 )
             {

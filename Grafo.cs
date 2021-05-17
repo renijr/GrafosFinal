@@ -44,11 +44,25 @@ namespace GrafosFinal
 
             for (int i = 0; i < op; i++)
             {
-                ConectarUsuario(opcao);
+                if (CheckStatusRede())
+                {
+                    ConectarUsuario(opcao);
+                }
+                else
+                {
+                    Console.WriteLine("***Atenção******Atenção******Atenção******Atenção***");
+                    Console.WriteLine("                  \nRede cheia");
+                    Console.WriteLine("****************************************************");
+                    Console.WriteLine("               {0} - Tentativas de conexão falharam", op - i);
+                    break;
+                }
+
             }
         }
         public static void ConectarUsuario(string opcao)
         {
+
+
             if (opcao == "1")
             {
                 int maiorSinal = 0;
@@ -71,6 +85,34 @@ namespace GrafosFinal
                     }
                 }
             }
+
+
+
+        }
+
+        public static void StatusRede()
+        {
+            int quantUsers = 0;
+            int totalCapacidade = 0;
+            totalCapacidade = GrafoLista[0].Count * 100;
+            foreach (Vertice a in GrafoLista[0])
+            {
+                quantUsers += a.QuantidadeUsuarios;
+
+            }
+            Console.WriteLine("A capacidade da rede é de {0} e nestes momento temos {1} usuários conectados", totalCapacidade, quantUsers);
+        }
+        public static bool CheckStatusRede()
+        {
+            int quantUsers = 0;
+            int totalCapacidade = 0;
+            totalCapacidade = GrafoLista[0].Count * 100;
+            foreach (Vertice a in GrafoLista[0])
+            {
+                quantUsers += a.QuantidadeUsuarios;
+
+            }
+            return (quantUsers < 600);
         }
         public static void MostrarGrafo()
         {

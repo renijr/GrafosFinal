@@ -10,6 +10,7 @@ namespace GrafosFinal
             
             do
             {
+                Grafo.Leitor();
                 Menu.ShowMenu();
                 op = Convert.ToInt32(Console.ReadLine());
                 Menu.MenuActions(op);
