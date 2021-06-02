@@ -7,10 +7,11 @@ namespace GrafosFinal
         static void Main(string[] args)
         {
             int op;
-            
+            Grafo.Leitor();
+
             do
             {
-                Grafo.Leitor();
+                
                 Menu.ShowMenu();
                 op = Convert.ToInt32(Console.ReadLine());
                 Menu.MenuActions(op);

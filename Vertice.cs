@@ -14,10 +14,10 @@ namespace GrafosFinal
 
         public Vertice() { }
 
-        public Vertice(string novoBairro)
-        {
-            Bairro = novoBairro;
-        }
+        //public Vertice(string novoBairro)
+        //{
+        //    Bairro = novoBairro;
+        //}
        
         public Vertice(string codigoAntena, int quantidadeUsuarios, string bairro)
         {

@@ -126,9 +126,9 @@ namespace GrafosFinal
         {
             int aux = 0;
             Console.Write("Processing");
-            while (aux < 15)
+            while (aux < 10)
             {
-                Thread.Sleep(100);
+                Thread.Sleep(50);
                 Console.Write(".");
                 aux++;
             }
